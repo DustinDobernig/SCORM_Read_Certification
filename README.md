@@ -22,9 +22,8 @@ Example for any pdf: ?pdf=https://www.unssc.org/sites/unssc.org/files/example_0.
 
 <br /><br />
 
-Survey link on exit:
+Lime Survey link on exit:
 
-https://froedtert.pathlore.net/froedtert/SCORM_Read_Certification/index.html?wistia=n4qzzxgqwh&survey=https://fmlh-education.com/survey/index.php?r=survey/index/sid/421429/newtest/Y/lang/en/421429X920X16799/EDS1700058/421429X920X16800/On-line
 
 append with &survey = link
 
