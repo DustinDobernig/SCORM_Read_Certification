@@ -253,9 +253,9 @@
         //Go to limesurvey after unload.
 
         survey = getURLParameter('survey');
-        console.log(survey);
+        if(survey){
         window.open(survey, "Survey", "scrollbars=1");
-
+      };
     }
 
     window.addEventListener("beforeunload", function(e) {
