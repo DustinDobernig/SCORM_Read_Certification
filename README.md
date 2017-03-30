@@ -8,15 +8,15 @@ Learner will need to wait at least 15 seconds before acknowledging they understa
 
 Wistia video embed:
 
-https://froedtert.pathlore.net/froedtert/SCORM_Read_Certification/index.html?wistia=c21czvkh5u
+https://yoursite.com/SCORM_Read_Certification/index.html?wistia=c21czvkh5u
 
-Example: ?wistia=n4qzzxgqwh | wistia video code is at the end of urls -> “https://froedtert.wistia.com/medias/c21czvkh5u”
+Example: ?wistia=c21czvkh5u | wistia video code is at the end of urls -> “https://you.wistia.com/medias/c21czvkh5u”
 
 <br /><br />
 
 PDF embed:
 
-https://froedtert.pathlore.net/froedtert/SCORM_Read_Certification/index.html?pdf=https://www.unssc.org/sites/unssc.org/files/example_0.pdf
+https://yoursite.com/SCORM_Read_Certification/index.html?pdf=https://www.unssc.org/sites/unssc.org/files/example_0.pdf
 
 Example for any pdf: ?pdf=https://www.unssc.org/sites/unssc.org/files/example_0.pdf
 
