@@ -293,10 +293,7 @@
         //Go to limesurvey after unload.
 
         survey = getURLParameter('survey');
-        if (survey) {
-            surveylink = 'https://fmlh-education.com/survey/index.php?r=survey/index/sid/421429/newtest/Y/lang/en/421429X920X16799/' + survey + '/421429X920X16800/On-line'
-            window.open(surveylink, "Survey", "scrollbars=1");
-        };
+        
     }
 
     window.addEventListener("beforeunload", function(e) {
