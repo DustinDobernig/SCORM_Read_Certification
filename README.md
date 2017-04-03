@@ -1,5 +1,5 @@
 # SCORM_Read_Certification
-SCORM 1.3 compliant wrapper to quickly embed a pdf/video with learner acknowledgement.
+Pipwerks SCORM 1.3 compliant wrapper to quickly embed a pdf/video with learner acknowledgement.
 
 To be used in a LMS. Learner name will populate dynamically and completion will be recorded upon learner acknowledgement.
 Learner will need to wait at least 15 seconds before acknowledging they understand embeded materials. 
