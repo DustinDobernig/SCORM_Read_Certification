@@ -5,108 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Read Certification</title>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/SCORM_API_wrapper.js"></script>
     <script type="text/javascript" src="js/pdfobject.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
-    <style type="text/css">
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        background: #333333;
-        padding: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
-        text-align: center;
-    }
-    
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #525659;
-    }
-    
-    form {
-        background: #F8F8F8;
-        width: 100%;
-        /* height: 70px;*/
-        /* padding: 2em; */
-        /* margin-right: auto; */
-        /* margin-left: auto; */
-        /* border-top: 1px solid #FFFFFF;
-    border-right: 1px solid #FFFFFF;
-    border-bottom: 1px solid #CCCCCC;
-    border-left: 1px solid #CCCCCC;*/
-    }
-    
-    fieldset {
-        /*    height: 70px;*/
-        /*margin-bottom: 10px;*/
-        border: 1px solid #DDD;
-        padding-right: 1em;
-        padding-left: 1em;
-    }
-    
-    legend {
-        font-weight: bold;
-        margin: 0px;
-        padding: 3px 6px;
-        border: 1px solid #DDDDDD;
-        background: #EFEFEF;
-    }
-    
-    p {
-        font-size: 18px;
-        padding: .8em;
-    }
-    
-    input {
-        padding: 10px 5px;
-        margin-left: 30px;
-        font-weight: bold;
-        color: #339900;
-    }
-    
-    #submit {
-        display: inline-block;
-        position: relative;
-        min-width: 140px;
-        border: none;
-        margin: 10px;
-        margin-left: 40px;
-        padding: 7px 20px;
-        text-align: center;
-        text-decoration: none;
-        font: bold 18px/25px Arial, sans-serif;
-        cursor: pointer;
-        background: #9c0f0f;
-        color: white;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-        -webkit-transition: all 0.15s ease;
-        -moz-transition: all 0.15s ease;
-        -o-transition: all 0.15s ease;
-        -ms-transition: all 0.15s ease;
-        transition: all 0.15s ease;
-    }
-    
-    .green {
-        background: #12b821 !important;
-    }
-    
-    #learnername {
-        font-weight: bold;
-    }
-    
-    #my-container {
-        height: 97%;
-    }
-    </style>
     <script>
     var scorm = pipwerks.SCORM; //Shortcut
     var lmsConnected = false;
